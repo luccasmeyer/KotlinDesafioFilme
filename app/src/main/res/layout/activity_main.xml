@@ -30,8 +30,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/mobile_navigation" />
 
-<!--    teste de commit-->
-<!--    teste-->
-<!--    TESTE DE NOVO-->
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
