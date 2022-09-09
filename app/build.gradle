@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -60,5 +61,5 @@ dependencies {
 
 //glide
     implementation 'com.github.bumptech.glide:glide:4.4.0'
-//    kapt 'com.github.bumptech.glide:compiler:4.4.0'  TRATAR COM O PEDRO SOBRE O GLIDE
+    kapt 'com.github.bumptech.glide:compiler:4.4.0'
 }

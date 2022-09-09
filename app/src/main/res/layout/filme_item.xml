@@ -24,7 +24,7 @@
             android:minHeight="100dp">
 
             <ImageView
-                android:id="@+id/nota_item_imagem"
+                android:id="@+id/filme_imagem"
                 android:layout_width="0dp"
                 android:layout_height="100dp"
                 android:scaleType="centerCrop"
@@ -47,12 +47,12 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/nota_item_imagem"
+                app:layout_constraintTop_toBottomOf="@+id/filme_imagem"
                 app:layout_constraintVertical_bias="0.00999999"
                 tools:text="@tools:sample/lorem/random" />
 
             <TextView
-                android:id="@+id/nota_item_descricao"
+                android:id="@+id/data_de_lancamento"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
@@ -65,6 +65,21 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/nota_item_titulo"
                 tools:text="@tools:sample/lorem/random" />
+            <TextView
+                android:id="@+id/linguagem"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/data_de_lancamento"
+                tools:text="@tools:sample/lorem/random" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
