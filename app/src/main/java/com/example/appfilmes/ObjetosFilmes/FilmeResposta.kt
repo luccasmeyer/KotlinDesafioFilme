@@ -1,5 +1,6 @@
-package com.example.appfilmes
+package com.example.appfilmes.ObjetosFilmes
 
+import com.example.appfilmes.ObjetosFilmes.Filme
 import com.google.gson.annotations.SerializedName
 
 data class FilmeResposta (
